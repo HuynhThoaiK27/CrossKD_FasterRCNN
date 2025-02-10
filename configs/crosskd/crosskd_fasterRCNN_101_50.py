@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/datasets/voc0712.py',  # Tập dữ liệu VOC 07+12
+    '../_base_/datasets/voc0712_faster_rcnn.py',  # Tập dữ liệu VOC 07+12
     '../_base_/schedules/schedule_1x.py',  # Lịch trình huấn luyện 1x
     '../_base_/default_runtime.py'  # Cấu hình runtime mặc định
 ]
