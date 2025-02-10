@@ -5,7 +5,7 @@ _base_ = [
 ]
 
 # Đảm bảo rằng teacher_ckpt là một ConfigDict hoặc dict
-teacher_ckpt = 'configs/weights_FasterRCNN/weights_FasterRCNN101.pth'
+teacher_ckpt = '...' # cần để đúng đường dẫn đến trọng số teacher
 
 # Cấu hình cho teacher
 teacher_config = 'configs/faster_rcnn/faster-rcnn_r101_fpn_1x_voc0712.py'
