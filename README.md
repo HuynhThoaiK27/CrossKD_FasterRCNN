@@ -16,8 +16,9 @@
 - **Thêm dataset VOC0712:** `configs/_base_/datasets/voc0712_faster_rcnn.py`
 
 - **Đường dẫn đến trọng số huấn luyện Faster_RCNN 101(teacher):** https://drive.google.com/file/d/19xWost3a5QFDegu65mAv7fiN8Lb7EgY1/view?usp=drive_link
-- **Đường dẫn đến bộ dữ liệu VOC0712 được sử dụng trong cấu hình voc0712_faster_rcnn.py: ** https://www.kaggle.com/datasets/vijayabhaskar96/pascal-voc-2007-and-2012
+ ![image](https://github.com/user-attachments/assets/b5dadbef-31d2-4414-a060-cf927ab9efa5)
 
+- **Đường dẫn đến bộ dữ liệu VOC0712 được sử dụng trong cấu hình voc0712_faster_rcnn.py: ** https://www.kaggle.com/datasets/vijayabhaskar96/pascal-voc-2007-and-2012
 ---
 
 ## Get Started
