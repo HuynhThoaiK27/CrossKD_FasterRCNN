@@ -1,6 +1,7 @@
 # dataset settings
 dataset_type = 'VOCDataset'
-data_root = '/kaggle/input/pascal-voc-2007-and-2012/VOCdevkit'
+data_root = 'data/VOCdevkit/'  # https://www.kaggle.com/datasets/vijayabhaskar96/pascal-voc-2007-and-2012
+
 
 file_client_args = dict(backend='disk')
 
