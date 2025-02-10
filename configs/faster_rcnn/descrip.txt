@@ -1,1 +1,1 @@
-lưu trữ cấu hình faster_rcnn
+2 cấu hình được sử dụng là Faster_rcnn 101 và Faster_rcnn 50 (sử dụng trên bộ dữ liệu VOC)
