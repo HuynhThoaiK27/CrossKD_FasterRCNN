@@ -61,6 +61,9 @@ from .crosskd_gfl import CrossKDGFL
 from .crosskd_atss import CrossKDATSS
 from .crosskd_fcos import CrossKDFCOS
 
+from .crosskd_faster_rcnn import CrossKDFasterRCNN # cấu hình tinh chỉnh CrosskD cho FasterRCNN
+from .crosskd_two_stage import CrossKDTwoStageDetector # cấu hình tinh chỉnh CrosskD cho TwoStage
+
 __all__ = [
     'ATSS', 'BaseDetector', 'SingleStageDetector', 'TwoStageDetector', 'RPN',
     'KnowledgeDistillationSingleStageDetector', 'FastRCNN', 'FasterRCNN',
@@ -73,5 +76,6 @@ __all__ = [
     'MaskFormer', 'DDOD', 'Mask2Former', 'SemiBaseDetector', 'SoftTeacher',
     'RTMDet', 'Detectron2Wrapper', 'CrowdDet', 'CondInst', 'BoxInst',
     'DetectionTransformer', 'ConditionalDETR', 'DINO', 'DABDETR', 'CrossKDGFL',
-    'CrossKDSingleStageDetector', 'CrossKDRetinaNet', 'CrossKDATSS', 'CrossKDFCOS'
+    'CrossKDSingleStageDetector', 'CrossKDRetinaNet', 'CrossKDATSS', 'CrossKDFCOS',
+    'CrossKDFasterRCNN', 'CrossKDTwoStageDetector' # 2 lớp được thêm
 ]
